@@ -3,8 +3,7 @@ Zaproxy mail report for cronjob
 
 1- Install Docker
 
-# curl -fsSL https://get.docker.com -o get-docker.sh
-# sh get-docker.sh
+# curl -sSL https://get.docker.com | sh
 
 2- Install Mailutils
 

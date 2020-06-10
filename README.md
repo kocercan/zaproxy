@@ -7,11 +7,7 @@ Zaproxy mail report for cronjob
 
 2- Install Mailutils
 
-# apt install mailutils
-or
 # yum install mailx
-
-Chosee smarthost and point it to your mail server.
 
 4- Make the script executable
 

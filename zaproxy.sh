@@ -9,6 +9,6 @@ docker run --rm -v $(pwd):/zap/wrk/:rw -t owasp/zap2docker-stable zap-baseline.p
 
 echo "ZAP Scaning Report Ektedir" | mail -s "ZAP Scanning Report $line" toaddr@yourdomain.com -a "From: ZAProxy <zaproxy@yourdomain.com>" -A testreport.html 
 rm testreport.html
-echo "going to sleep for 2m"
-sleep 2m
+echo "going to sleep for 20s"
+sleep 20s
 done < "$input"

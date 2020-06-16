@@ -18,6 +18,7 @@ Chosee smarthost and point it to your mail server.
 # chmod +x zaproxy.sh
 
 3- Usage
+
   Create a file for URL List, write URL's as line by line and point it in script.
   run the command.
 # sh zaproxy.sh 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-input="/home/ercan/URL_Test.txt" #Create a file and put all URLs in this file line by line with https:// or http://
+input=$1 #Create a file and put all URLs in this file line by line with https:// or http://
 file="testreport.html"  #This file will generated while scan and deleted after sent via e-mail.
 name=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1) #Generate random name for container.
 
